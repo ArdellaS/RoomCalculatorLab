@@ -18,9 +18,8 @@ namespace WeekTwoLab
                 Console.Write("Please enter room width: ");
                 var inputWidth = double.Parse(Console.ReadLine());
 
-                //Console.Write("Please enter room height: ");
-                var inputHeight = 10;
-                //double.Parse(Console.ReadLine());
+                Console.Write("Please enter room height: ");
+                var inputHeight = double.Parse(Console.ReadLine());
 
 
                 var area = inputLength * inputWidth;
